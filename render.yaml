@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: stackbuddy-backend
+    runtime: node
+    env: node
+    buildCommand: cd StackBuddy-backend-master/StackBuddy-backend-master && npm install
+    startCommand: cd StackBuddy-backend-master/StackBuddy-backend-master && npm start
+    plan: free
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: PORT
+        value: 10000
+      - key: FRONTEND_URL
+        sync: false
+      - key: NODE_ENV
+        value: production
