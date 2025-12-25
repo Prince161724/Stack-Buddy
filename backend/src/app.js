@@ -20,8 +20,6 @@ app.use(
     origin: [
       "http://localhost:3200",
       "http://localhost:5173",
-      "https://king-prawn-app-colmw.ondigitalocean.app",
-      "https://stackbuddy.projectwork.tech",
       "https://stack-buddy-backend.onrender.com",
       "https://stack-buddy-frontend-08iy.onrender.com"
     ],
