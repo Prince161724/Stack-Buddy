@@ -17,6 +17,7 @@ const initializeSocket = (server) => {
         "http://localhost:5173",
         "https://starfish-app-admwy.ondigitalocean.app/",
         "https://stackbuddy.projectwork.tech",
+        "https://stack-buddy-backend.onrender.com",
       ],
       credentials: true,
     },

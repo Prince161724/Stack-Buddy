@@ -22,6 +22,7 @@ app.use(
       "http://localhost:5173",
       "https://king-prawn-app-colmw.ondigitalocean.app",
       "https://stackbuddy.projectwork.tech",
+      "https://stack-buddy-backend.onrender.com",
     ],
     credentials: true,
   })
