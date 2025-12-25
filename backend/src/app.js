@@ -23,6 +23,7 @@ app.use(
       "https://king-prawn-app-colmw.ondigitalocean.app",
       "https://stackbuddy.projectwork.tech",
       "https://stack-buddy-backend.onrender.com",
+      "https://stack-buddy-frontend-08iy.onrender.com"
     ],
     credentials: true,
   })
